@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:5138'
+const BASE_URL = 'https://api-crud-c-first-production.up.railway.app/'
 const nomeInput = document.getElementById('nome')
 const lista = document.getElementById('lista')
 
@@ -59,3 +59,4 @@ async function atualizar(id, novaTarefa) {
 }
 
 carregarLista()
+
