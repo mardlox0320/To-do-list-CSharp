@@ -1,4 +1,4 @@
-const BASE_URL = 'https://api-crud-c-first1.onrender.com/'
+const BASE_URL = 'https://api-crud-c-first1.onrender.com'
 const nomeInput = document.getElementById('nome')
 const lista = document.getElementById('lista')
 
@@ -59,6 +59,7 @@ async function atualizar(id, novaTarefa) {
 }
 
 carregarLista()
+
 
 
 
